@@ -63,6 +63,9 @@ p {
 }
 
 /*HEADER*/
+.header {
+    margin-bottom: 25px;
+}
 .header .container {
     display: flex;
     align-items: center;
@@ -152,9 +155,31 @@ p {
     font-weight: 700;
     font-size: 40px;
     line-height: 1.5;
+    margin-bottom: 18px;
 }
 
 .hero-text {
     font-size: 18px;
     line-height: 1.555;
+    margin-bottom: 45px;
+}
+
+.hero-btn.get-started-btn {
+    width: 178px;
+    height: 53px;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    background-color: #02897a;
+}
+
+.hero-btn.watch-video-btn {
+    width: 164px;
+    height: 23px;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #02897a;
 }
