@@ -179,9 +179,12 @@ p {
   margin-bottom: 45px;
 }
 
-.hero-btn.get-started-btn {
+.hero-btn {
   width: 178px;
   height: 53px;
+}
+
+.hero-btn.get-started-btn {
   border-radius: 4px;
   font-weight: 700;
   font-size: 16px;
@@ -194,9 +197,6 @@ p {
   align-items: center;
   justify-content: center;
   gap: 8px;
-  width: 164px;
-  height: 23px;
-
 }
 
 .watch-video-btn-text {
@@ -225,7 +225,7 @@ p {
 }
 
 .features-list-item {
-  width: calc((100% - 3*30px) / 4);
+  width: calc((100% - 3 * 30px) / 4);
 }
 
 .icon-box {
@@ -256,7 +256,7 @@ p {
 
 .features-icon {
   fill: #fff;
-  text-align: center;
+  display: block;
 }
 
 .feature-title {
