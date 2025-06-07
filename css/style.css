@@ -1,3 +1,160 @@
-h1 {
+:root {
+    --font-family: "Poppins", sans-serif;
+    --second-family: "Inter", sans-serif;
+    --third-family: "Montserrat", sans-serif;
+    --main-color: #22343d;
+    /*--font4: "Roboto", sans-serif;*/
+}
 
+body {
+    font-family: var(--font-family);
+    color: var(--main-color);
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-style: normal;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 0;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background: none;
+    font: inherit;
+    color: inherit;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.header-btn {
+
+}
+
+/*HEADER*/
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-nav {
+    display: flex;
+    gap: 237px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-logo {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 30px;
+
+    line-height: 0.933;
+    color: #173a56;
+}
+
+.header-nav-list {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-nav-link {
+    display: block;
+    padding: 26px 0;
+}
+
+.header-nav-link.current-page {
+    font-weight: 600;
+}
+
+.header-btn-list {
+    display: flex;
+    gap: 21px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-btn {
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    width: 105px;
+    height: 42px;
+    border-radius: 4px;
+}
+
+.header-btn.sign-in-btn {
+    font-weight: 600;
+    color: #173a56;
+    border: 1px solid #bcd0e5;
+}
+
+.header-btn.sign-up-btn {
+    font-weight: 600;
+    color: #fff;
+    border-radius: 4px;
+    background-color: #02897a;
+}
+
+
+/*HERO*/
+.hero .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-btn-list {
+    display: flex;
+    gap: 30px;
+    justify-content: start;
+    align-items: center;
+}
+
+.hero-header {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.5;
+}
+
+.hero-text {
+    font-size: 18px;
+    line-height: 1.555;
 }
