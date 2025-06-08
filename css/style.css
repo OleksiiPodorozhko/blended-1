@@ -208,13 +208,17 @@ p {
 }
 
 /*FEATURES*/
+.features {
+  padding-bottom: 50px;
+}
+
 .features-header {
   max-width: 535px;
   font-weight: 700;
   font-size: 32px;
   text-align: center;
-  color: #22343d;
   margin: 0 auto 50px;
+  line-height: 1.5;
 }
 
 .features-list {
@@ -263,7 +267,7 @@ p {
   margin-bottom: 13px;
   font-weight: 600;
   font-size: 22px;
-  color: #22343d;
+  line-height: 1.5;
 }
 
 .features-btn {
@@ -276,4 +280,52 @@ p {
   font-size: 16px;
   color: #fff;
   background-color: #02897a;
+}
+
+/*MANAGEMENT*/
+.management {
+  padding-top: 50px;
+}
+
+.management .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.management-content {
+  width: 486px;
+}
+
+.management-subtitle {
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.management-title {
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+
+.management-title-descr {
+  margin-bottom: 30px;
+}
+
+.management-item:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+.management-item-title {
+  margin-bottom: 12px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.625;
+}
+
+.management-text {
+  font-size: 16px;
+  line-height: 1.625;
 }
